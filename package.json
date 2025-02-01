@@ -1,12 +1,26 @@
 {
-  "name": "pizzeria-db",
+  "name": "project_data",
   "version": "1.0.0",
-  "description": "JSON server for Pizzeria app",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --port 5000"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nithiya-manoharan/project_data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nithiya-manoharan/project_data/issues"
+  },
+  "homepage": "https://github.com/nithiya-manoharan/project_data#readme",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.1"
   }
 }
